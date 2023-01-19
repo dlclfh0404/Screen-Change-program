@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Screen2Controller">
+   <children>
+      <Label fx:id="lblText" layoutX="36.0" layoutY="67.0" text="새 창으로 전환되었습니다." textFill="#b00ee1">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnChange1" layoutX="66.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnChange1Action" text="전 창으로 돌아가기" textFill="#e81010">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClose" layoutX="450.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnCLoseAction" text="창 닫기" textFill="#0935f8">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2Change" layoutX="66.0" layoutY="230.0" mnemonicParsing="false" onAction="#btn2ChangeAction" text="같은 창으로 전 창으로 돌아가기">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
